@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include eurodiwan *.css
+recursive-include eurodiwan *.csv
+recursive-include eurodiwan *.html
+recursive-include eurodiwan *.ico
+recursive-include eurodiwan *.js
+recursive-include eurodiwan *.json
+recursive-include eurodiwan *.md
+recursive-include eurodiwan *.png
+recursive-include eurodiwan *.py
+recursive-include eurodiwan *.svg
+recursive-include eurodiwan *.txt
+recursive-exclude eurodiwan *.pyc

@@ -1,0 +1,43 @@
+{
+ "actions": [],
+ "autoname": "field:catalogue_reference",
+ "creation": "2022-03-27 12:28:01.269770",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "catalogue_reference"
+ ],
+ "fields": [
+  {
+   "fieldname": "catalogue_reference",
+   "fieldtype": "Data",
+   "label": "Catalogue Reference",
+   "unique": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2022-08-23 08:30:40.074945",
+ "modified_by": "Administrator",
+ "module": "Eurodiwan",
+ "name": "Catalogue Reference",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}
